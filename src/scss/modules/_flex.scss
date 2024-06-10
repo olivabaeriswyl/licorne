@@ -1,0 +1,23 @@
+.flex-language {
+  display: flex;
+}
+
+.flex-language p,
+.flex-language a {
+  margin-left: 3px;
+}
+
+.flex-profil {
+  display: flex;
+  flex-direction: column;
+  width: 40px;
+  margin-left: 30px;
+}
+
+.flex-profil img {
+  margin-bottom: 15px;
+}
+
+.flex-navigation {
+  display: flex;
+}
