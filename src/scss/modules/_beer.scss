@@ -1,4 +1,4 @@
-.beer-background {
+.beer-part {
   background: #e4eae2;
   padding: 100px 0;
 }
@@ -9,7 +9,7 @@
   align-items: flex-start;
 }
 
-.beer-background h3 {
+.beer-part h3 {
   writing-mode: vertical-lr;
   text-orientation: mixed;
 }
@@ -20,4 +20,26 @@
 
 .beer-text-variante {
   font-size: 16px;
+}
+
+.beer-blond {
+  color: #e30613;
+}
+
+.beer-dark {
+  color: #58b999;
+}
+
+.beer-ipa {
+  color: #f4af0a;
+}
+
+// oui oui oui
+.beer-column img {
+  transition: transform 2s ease-out;
+}
+
+.beer-column img:hover {
+  transform: rotate(0.5turn);
+  transform-origin: center;
 }

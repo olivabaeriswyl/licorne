@@ -5,6 +5,7 @@
     <title>eikon parcel starter</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="scss/main.scss" />
+    <link rel="stylesheet" href="https://use.typekit.net/kdk3alk.css" />
   </head>
   <body>
     <header>
@@ -38,22 +39,24 @@
     </header>
     <main>
       <div class="container">
-        <div class="row">
-          <div class="col-12 col-md-10 offset-md-1">
-            <div class="presentation">
-              <p class="slogan">
-                Chez Licorne, nos bières sans alcool sont comme des étoiles
-                filantes dans le ciel : uniques, authentiques et local. Chaque
-                gorgée raconte une histoire de tradition et de savoir-faire. À
-                votre santé !
-              </p>
-              <div class="presentation-center">
-                <img src="img/sante.svg" alt="" />
+        <div class="part">
+          <div class="row">
+            <div class="col-12 col-md-10 offset-md-1">
+              <div class="presentation">
+                <p class="slogan">
+                  Chez Licorne, nos bières sans alcool sont comme des étoiles
+                  filantes dans le ciel : uniques, authentiques et local. Chaque
+                  gorgée raconte une histoire de tradition et de savoir-faire. À
+                  votre santé !
+                </p>
+                <div class="presentation-center">
+                  <img src="img/sante.svg" alt="" />
+                </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="beer-background">
+        <div class="part beer-part">
           <div class="row">
             <div class="col">
               <h2>Nos bières</h2>
@@ -63,9 +66,9 @@
             <div class="col-12 col-md-3 offset-md-1">
               <img src="img/beer-blond.png" alt="" />
               <div class="beer-flex">
-                <h3>Blonde</h3>
+                <h3 class="beer-blond">Blonde</h3>
                 <div class="beer-column">
-                  <p>Légère, dorée et délicieuse.</p>
+                  <p class="beer-blond">Légère, dorée et délicieuse.</p>
                   <a href="" class="button-details">Détails</a>
                   <a href="" class="button-addcart">Ajouter au panier</a>
                 </div>
@@ -74,9 +77,9 @@
             <div class="col-12 col-md-3 offset-md-1">
               <img src="img/beer-dark.png" alt="" />
               <div class="beer-flex">
-                <h3>Brune</h3>
+                <h3 class="beer-dark">Brune</h3>
                 <div class="beer-column">
-                  <p>Un tourbillon de saveurs.</p>
+                  <p class="beer-dark">Un tourbillon de saveurs.</p>
                   <a href="" class="button-details">Détails</a>
                   <a href="" class="button-addcart">Ajouter au panier</a>
                 </div>
@@ -85,9 +88,13 @@
             <div class="col-12 col-md-3 offset-md-1">
               <img src="img/beer-ipa.png" alt="" />
               <div class="beer-flex">
-                <h3>IPA <span class="beer-text-variante">sans gluten</span></h3>
+                <h3 class="beer-ipa">
+                  IPA <span class="beer-text-variante">sans gluten</span>
+                </h3>
                 <div class="beer-column">
-                  <p>L’amertume audacieuse, sans les regrets.</p>
+                  <p class="beer-ipa">
+                    L’amertume audacieuse, <br>sans les regrets.
+                  </p>
                   <a href="" class="button-details">Détails</a>
                   <a href="" class="button-addcart">Ajouter au panier</a>
                 </div>
@@ -95,26 +102,27 @@
             </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col">
-            <h2>Notre histoire & nos valeurs</h2>
-          </div>
-        </div>
-        <div>
+        <div class="part valeurs-part">
           <div class="row">
             <div class="col">
+              <h2>Notre histoire & nos valeurs</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 col-md-4">
               <p>
                 Notre fondateur, Sylvain est passionné par le brassage de la
-                bière. Il a suivi des cours en Belgique pour se spécialiser pour
-                concrétiser son rêve de créer une marque de bière sans alcool.
-                L’entreprise est fondé en juin 2024 et les premières bières sont
+                bière. Il a suivi des cours en Belgique pour se spécialiser
+                pour concrétiser son rêve de créer une marque de bière sans
+                alcool. L’entreprise est fondé en juin 2024 et les premières
+                bières sont
               </p>
               <h3>Local</h3>
               <p>
-                Les bières Licorne sont fabriquées en Suisse, avec une attention
-                particulière portée aux ingrédients locaux et à la provenance.
-                Pour plus de détails sur la provenance des produits, cliquez
-                ici.
+                Les bières Licorne sont fabriquées en Suisse, avec une
+                attention particulière portée aux ingrédients locaux et à la
+                provenance. Pour plus de détails sur la provenance des
+                produits, cliquez ici.
               </p>
               <h3>Savoir faire</h3>
               <p>
@@ -122,7 +130,7 @@
                 bières authentiques, riches en saveurs et en caractère.
               </p>
             </div>
-            <div class="col">
+            <div class="col-12 col-md-4">
               <p>
                 brassées dans notre atelier à Estavayer-le-lac. Nous avons
                 perfectionnés les recettes pour avoir les bières parfaites ! À
@@ -131,9 +139,9 @@
               </p>
               <h3>Qualité</h3>
               <p>
-                Notre équipe expérimentée brasse des bières sans alcool de haute
-                qualité. Elles sont élaborées comme des bières traditionnelles,
-                avec des ingrédients biologiques.
+                Notre équipe expérimentée brasse des bières sans alcool de
+                haute qualité. Elles sont élaborées comme des bières
+                traditionnelles, avec des ingrédients biologiques.
               </p>
               <h3>0% alcool</h3>
               <p>
@@ -141,17 +149,19 @@
                 les amateurs de bières.
               </p>
             </div>
-            <div class="col">
-              <img src="#" alt="" />
+            <div class="col-12 col-md-4">
+              <img src="img/round-liquide.png" alt="" />
               <p>
-                Si vous cherchez une alternative sans alcool pour vos moments de
-                détente, Licorne est là pour vous !
+                Si vous cherchez une alternative sans alcool pour vos moments
+                de détente, Licorne est là pour vous !
               </p>
+              </div>
             </div>
           </div>
+        </div>
+        <div class="part details-beer-part">
           <div class="row">
-            <div></div>
-            <div class="col">
+            <div class="col-12 col-md-4">
               <h2>Blonde</h2>
               <p>Légère, dorée et délicieuse.</p>
               <div>
