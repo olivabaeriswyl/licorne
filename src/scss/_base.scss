@@ -26,6 +26,7 @@ body {
 
   font-size: 1rem;
   line-height: 1.25;
+  font-family: sans-serif;
 }
 
 a {
@@ -44,7 +45,17 @@ video {
 // ==================================== */
 
 header {
-  background-color: rgb(173, 38, 38);
+  background: url(../img/background-liquide.png) #dd622d;
+  background-size: cover;
   padding: 100px 0;
   color: #fefdfd;
+  height: 660px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 25px;
 }

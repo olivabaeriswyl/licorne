@@ -1,0 +1,23 @@
+.beer-background {
+  background: #e4eae2;
+  padding: 100px 0;
+}
+
+.beer-column {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.beer-background h3 {
+  writing-mode: vertical-lr;
+  text-orientation: mixed;
+}
+
+.beer-flex {
+  display: flex;
+}
+
+.beer-text-variante {
+  font-size: 16px;
+}
