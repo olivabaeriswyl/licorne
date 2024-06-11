@@ -1,0 +1,28 @@
+.details-beer-part {
+  background: #e4eae2;
+}
+
+.details-button-choice {
+  background: none;
+  border: solid black 1px;
+  border-radius: 50px;
+  padding: 2px 8px;
+}
+
+.details-beer-add-cart {
+  margin: 30px 0;
+  padding: 10px 0;
+  border-top: black 1px solid;
+  border-bottom: black 1px solid;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.details-button {
+  margin-top: 0;
+}
+
+.details-beer-sentence {
+  margin-bottom: 30px;
+}
