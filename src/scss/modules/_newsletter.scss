@@ -1,0 +1,31 @@
+.newsletter {
+  background: url(../img/newsletter.png);
+  background-size: cover;
+  padding: 130px 130px 30px;
+}
+
+.newsletter-email {
+  padding: 10px 25px;
+  border: none;
+  width: 220px;
+  height: 43px;
+  border-radius: 20px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.newsletter-button {
+  color: white;
+  padding: 10px 25px;
+  text-decoration: none;
+  background: black;
+  border-radius: 20px;
+  border: none;
+  height: 43px;
+  transition: background 0.2s;
+  font-weight: 900;
+}
+
+.newsletter-button:hover {
+  background: #dd622d;
+}
