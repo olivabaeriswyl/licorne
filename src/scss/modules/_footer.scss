@@ -2,3 +2,38 @@
   display: flex;
   justify-content: end;
 }
+
+.footer-logo {
+  margin-bottom: 30px;
+}
+
+.footer-last-p {
+  margin-bottom: 30px;
+}
+
+.footer-link {
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.footer-margin-title {
+  margin-top: 20px;
+}
+
+.footer-margin-top-title {
+  margin-top: -10px;
+}
+
+.footer-rights {
+  margin-top: -45px;
+}
+
+@media (max-width: 992px) {
+  .footer-arrow-flex {
+    margin-bottom: 30px;
+  }
+
+  .footer-rights {
+    margin-top: 0;
+  }
+}
