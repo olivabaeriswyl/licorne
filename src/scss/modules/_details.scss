@@ -30,3 +30,9 @@
 .details-cover-background {
   background-color: #e4eae2;
 }
+
+@media (max-width: 992px) {
+  .details-beer-part img {
+    margin-bottom: 20px;
+  }
+}
