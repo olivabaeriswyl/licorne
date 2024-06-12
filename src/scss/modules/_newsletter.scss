@@ -1,6 +1,4 @@
 .newsletter-part {
-  background: url(../img/newsletter.png);
-  background-size: cover;
   padding: 130px 130px 30px;
   margin: 100px 0;
 }
@@ -29,4 +27,20 @@
 
 .newsletter-button:hover {
   background: #dd622d;
+}
+
+.newsletter-cover-background {
+  background: #dd622d;
+  height: 150px;
+  margin-bottom: -300px;
+}
+
+.newsletter-part img {
+  position: relative;
+  z-index: 1;
+}
+
+.newsletter-form {
+  position: absolute;
+  z-index: 2;
 }
