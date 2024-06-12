@@ -8,3 +8,15 @@
   justify-content: center;
   justify-content: space-between;
 }
+
+@media (max-width: 992px) {
+  .building-part img {
+    width: 200px;
+  }
+}
+
+@media (max-width: 750px) {
+  .building-part img {
+    width: 150px;
+  }
+}

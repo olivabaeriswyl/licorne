@@ -1,5 +1,6 @@
 .values-part h3 {
   color: #dd622d;
+  margin-top: 20px;
 }
 
 .values-sentence {
@@ -14,5 +15,18 @@
 }
 
 .values-history-margin {
-  margin-bottom: 60px;
+  margin-bottom: 40px;
+  column-count: 2;
+  column-gap: 20px;
+}
+
+@media (max-width: 992px) {
+  .values-history-margin {
+    column-count: 1;
+    column-gap: 0;
+  }
+
+  .values-sentence {
+    font-size: 15px;
+  }
 }
