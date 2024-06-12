@@ -79,3 +79,8 @@ p {
     width: 350px;
   }
 }
+
+::selection {
+  color: white;
+  background-color: #dd622d;
+}
