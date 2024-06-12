@@ -18,6 +18,14 @@
   display: flex;
 }
 
+.beer-animation img {
+  transition: transform 0.8s;
+}
+
+.beer-animation:hover img {
+  transform: rotate(180deg);
+}
+
 .beer-text-variante {
   font-size: 16px;
 }
