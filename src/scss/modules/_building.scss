@@ -1,6 +1,7 @@
-.building-part img {
+.building-part video {
   border-radius: 50%;
   margin: 40px 0 100px;
+  width: 350px;
 }
 
 .building-images {
@@ -10,13 +11,13 @@
 }
 
 @media (max-width: 992px) {
-  .building-part img {
+  .building-part video {
     width: 200px;
   }
 }
 
 @media (max-width: 750px) {
-  .building-part img {
+  .building-part video {
     width: 150px;
   }
 }
